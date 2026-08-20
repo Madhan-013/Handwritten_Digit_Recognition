@@ -1,0 +1,46 @@
+HANDWRITTEN DIGIT RECOGNITION - OUTPUT REPORT
+==================================================
+
+Dataset: Sklearn Digits (8x8 handwritten digits)
+Total Samples: 1797
+Training Samples: 1437
+Testing Samples: 360
+Image Size: 8x8 pixels (64 features)
+Number of Classes: 10 (digits 0-9)
+
+Model: Multi-Layer Perceptron (MLPClassifier)
+Hidden Layers: (256, 128, 64)
+Activation: ReLU
+Optimizer: Adam
+Max Iterations: 50
+
+Training Accuracy: 100.00%
+Testing Accuracy:  97.22%
+
+CLASSIFICATION REPORT
+--------------------------------------------------
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.98        33
+           1       1.00      1.00      1.00        28
+           2       0.97      0.97      0.97        33
+           3       0.97      0.97      0.97        34
+           4       1.00      1.00      1.00        46
+           5       0.96      0.94      0.95        47
+           6       0.97      0.97      0.97        35
+           7       1.00      0.97      0.99        34
+           8       0.94      1.00      0.97        30
+           9       0.93      0.95      0.94        40
+
+    accuracy                           0.97       360
+   macro avg       0.97      0.97      0.97       360
+weighted avg       0.97      0.97      0.97       360
+
+
+SAVED FILES:
+--------------------------------------------------
+1. sample_images.png    - Sample training images
+2. training_history.png - Loss curve plot
+3. confusion_matrix.png - Confusion matrix heatmap
+4. predictions.png      - Model predictions vs actual
+5. Output.txt           - This report

@@ -1,0 +1,36 @@
+Handwritten Digit Recognition
+
+1. Problem Statement
+
+Handwritten digit recognition is the process of identifying and classifying handwritten digits (0-9) from images. Manually reading and digitizing large volumes of handwritten data is time-consuming and error-prone. Therefore, a deep learning system is developed to automatically recognize and classify handwritten digits from the MNIST dataset.
+
+2. Identify AI/ML Type
+AI/ML: Deep Learning
+Learning Type: Supervised Learning
+Problem Type: Multi-Class Classification
+Algorithms: Convolutional Neural Network (CNN), Artificial Neural Network (ANN)
+
+3. Objective
+
+To develop a deep learning model that accurately recognizes and classifies handwritten digits (0-9) from grayscale images using the MNIST dataset.
+
+Workflow Model:
+
+Data Collection (MNIST Dataset)
+|
+Data Preprocessing
+|
+Normalization & Reshaping
+|
+Train & Test Data Split
+|
+Model Building (CNN/ANN)
+|
+Model Training
+|
+Digit Classification
+|
+Model Evaluation
+
+Input: 28x28 Grayscale Image of a Handwritten Digit
+Output: Predicted Digit (0-9)
